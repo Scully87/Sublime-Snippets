@@ -33,23 +33,11 @@
       Please insert the preview copy here</td>
   <!--!==PREHEADER ROW==--></tr>
 
-
-  <tr><!-- table wrapper -->
-    <td valign="top">
-      <table id="wrapper" width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
-        <tr>
-          <td valign="top"><!--//table wrapper open tags -->
-
-
-
-  <!--//table wrapper close tags --></td>
-        </tr>
-      </table></td>
-  <!--//table wrapper --></tr>
+  <!-- CONTENT -->
 
 
 <!--//body wrapper --></table>
-  <!-- Emai on Acid/Campaign Monitor sub fix -->
+  <!-- Email on Acid/Campaign Monitor sub fix -->
   <div style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;-webkit-text-size-adjust:none;">&nbsp;</div>
 </body>
 </html>
