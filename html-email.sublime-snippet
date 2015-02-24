@@ -11,8 +11,8 @@
     /* Outlook Float table fix (http://www.emailonacid.com/blog/details/C13/removing_unwanted_spacing_or_gaps_between_tables_in_outlook_2007_2010) */table {border-collapse: collapse;} p {line-height: 1px;font-size: 1px; padding: 0px; margin: 0px; -webkit-margin-before:0em!important;-webkit-margin-after:0em!important; mso-line-height-rule: exactly;display:block!important;height:1px!important; }/* End Outlook Fix */
     /*Fix iphone min font size (http://www.campaignmonitor.com/blog/post/3339/save-your-layout-by-overriding-the-minimum-font-size-on-the-iphone-and/) */div, p, a, li, td { -webkit-text-size-adjust:none; }/* End Iphone Font Size Fix */
     @media /* For ratio's please see http://screensiz.es/phone */
-      /* only screen and (max-width: 480px), /* BROWSER TESTING ONLY (PLEASE COMMENT OUT BEFORE FINAL SEND) */
-      only screen and (device-aspect-ratio: 9/16), /* Samsung Galaxy Family + Note 2, Motorola Droid family, Black berry Z10, HTC One + many misc */
+       /*only screen and (max-width: 480px),  BROWSER TESTING ONLY (PLEASE COMMENT OUT BEFORE FINAL SEND)*/
+      only screen and (device-aspect-ratio: 9/16), /* Samsung Galaxy Family + Note 2, Motorola Droid family, Black berry Z10, HTC One + many misc
       only screen and (device-aspect-ratio: 5/8) and (max-device-width : 400px), /* Galaxy Note 1 (device-width excludes Tablet)*/
       only screen and (device-aspect-ratio: 3/5), /* Iphone 5 + HTC Desire + Evo, Samsung Nexus X, Nokia Lumia family + many misc */
       only screen and (max-device-width : 767px) { /* Iphone family + general failsafe */
@@ -25,19 +25,18 @@
     }
   </style>
 </head>
-<body style="margin:0px;padding:0px;">
-<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0"><!-- body wrapper -->
+<body style="margin:0px;padding:0px;background:#000000;" align="left">
+<table table id="wrapper" width="600" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ffffff"><!-- body wrapper -->
 
   <tr><!--!==PREHEADER ROW== (this is not visible and exists to provide copy for email client preview text/notification)-->
     <td bgcolor="#ffffff" height="1" style="display:none!important;overflow:none;line-height:1px;font-size:1px;color:#ffffff;mso-line-height-rule: exactly;-webkit-text-size-adjust:none;">
-      Please insert the preview copy here
-    </td>
+      Please insert the preview copy here</td>
   <!--!==PREHEADER ROW==--></tr>
 
 
   <tr><!-- table wrapper -->
     <td valign="top">
-      <table id="wrapper" width="600" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#e2e2e2">
+      <table id="wrapper" width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
         <tr>
           <td valign="top"><!--//table wrapper open tags -->
 
@@ -54,7 +53,6 @@
   <div style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;-webkit-text-size-adjust:none;">&nbsp;</div>
 </body>
 </html>
-
 
 ]]></content>
   <tabTrigger>email;</tabTrigger>
