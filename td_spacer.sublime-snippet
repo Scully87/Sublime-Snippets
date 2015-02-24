@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+<td valign="top" width="20">&nbsp;</td>
+]]></content>
+<tabTrigger>spacer;</tabTrigger>
+</snippet>
