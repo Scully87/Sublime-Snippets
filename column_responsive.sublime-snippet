@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<!--!   || XXX COL|| -->
+<table width="XXX" class="mob-full" border="0" align="XXX" cellpadding="0" cellspacing="0" >
+    <tr><td><p style="mso-table-lspace:0;mso-table-rspace:0;line-height: 1px;font-size: 1px; padding: 0px; margin: 0px; -webkit-margin-before:0em!important;-webkit-margin-after:0em!important; mso-line-height-rule: exactly;">&nbsp;</p></td></tr><!-- Outlook fix -->
+    <tr>
+        <td valign="top" bgcolor="#XXXXXX">
+
+        <!--// --></td>
+    </tr>
+<!--//||XXX COL|| --></table>
+]]></content>
+<tabTrigger>column responsive;</tabTrigger>
+</snippet>
